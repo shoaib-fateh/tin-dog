@@ -1,0 +1,258 @@
+/* chang the scroll */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ffc355;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #fcb022;
+}
+
+.part-one{
+    background-color: #ffc355;
+}
+#second-h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+.container-fluid{
+    padding: 2% 15% 8%;
+}
+.navbar{
+    padding-left: 0px;
+}
+.navbar-dark .navbar-brand {
+    color:white;
+    font-size: 2rem;
+    font-family: unset;
+    font-weight: 500;
+    padding: 0px;
+}
+.navbar-nav{
+    font-size: 1.2rem;
+    font-family: inherit;
+}
+.nav-item{
+  margin: 0 5px;
+}
+#second-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30px;
+}
+@media (max-width: 1070px){
+    #second-img{
+        position: static;
+        transform: rotate(0);
+    }
+    #second-div{
+        text-align: center;
+    }
+}
+/* Part Two */
+
+.part-two{
+    padding: 7% 15%;
+    text-align: center;
+    position: relative;
+    background-color: white;
+}
+.p-two{
+padding: 5%;
+}
+.img-two{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+.img-two:hover{
+    opacity:70%;
+}
+.p-two p{
+    color: rgb(116, 111, 111);
+}
+.p-two h3{
+    font-weight: bold;
+}
+
+/* part-three */
+#testimonials{
+    text-align: center;
+    background-color: #ffc355;
+    
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.part-three-img{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    margin: 20px;
+}
+.part-three-h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: white;
+}
+#press{
+    padding: 5% 10%;
+    text-align: center;
+    background-color:#ffc355;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* part-four */
+
+.part-four{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-card{
+    padding: 3% 2%;
+}
+
+/* =--------------------------------============== */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.section-pink,.section-white{
+    text-align: center;
+}
+.section-pink{
+    background: #ffc355;
+    color: #fff;
+}
+.section-white{
+    background-color: #fff;
+}
+/* style heading and more... */
+h1, h2, h3, h4, h5, h6{
+    font-weight: 800;
+}
+h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+h2{
+    font-size: 2rem;
+}
+p{
+    color: #8f8f8f;
+}
+/* style navbar */
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+#title-nav{
+    text-align: left;
+}
+.navbar{
+    margin:0 0 4.5rem;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+/* btn-download */
+.btn-download{
+    margin: 5% 3% 5% 0;
+}
+/* title-image */
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30px;
+}
+/* style for features section =========================== */
+#features{
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+
+}
+.feature-box{
+
+}
+
+.icon{
+    margin-bottom: 1rem;
+    color: #fbb636;
+}
+.icon:hover{
+    color: #efc372;
+}
+/* style for Testimonials section =========================== */
+#Testimonials{
+    padding: 7% 15%;
+}
+.dog-img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+#press{
+    padding-bottom: 3%;
+}
+#press img{
+    width: 10em;
+}
+#myCarousel{
+    padding: 1% 23%;
+    margin: 1% -23%;
+}
+/* style for pricing section ========================================== */
+#pricing{
+    padding: 100px;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+/* style for cta section */
+#cta{
+    padding: 7% 15%;
+}
+.cta-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+/* style for footer section =========================== */
+#footer{
+    padding: 2%;
+}
+.cocial-icon{
+    margin: 20px 10px;
+}
+/* media */
+@media (max-width: 990px){
+    #title-nav{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
